@@ -9,7 +9,12 @@
 <body>
   <div class="container">
     <div>
-      
+        <div class="toggle-container">
+            <label class="toggle-label">
+              <input id="theme-toggle" type="checkbox">
+              <span class="toggle-slider"></span>
+            </label>
+        </div>  
       <h1 class="name">Hey 👋, I'm Hamidreza Josheghani</h1>
       <img id="profile-pic" class="profile-pic" src="assets/pic.png" alt="Profile Picture">
       <p class="description" style="white-space: pre-line">I'm currently working as "<a class="social-link" href="https://sre.google/">SRE</a>", previously known as <a class="social-link" href="https://en.wikipedia.org/wiki/DevOps">DevOps</a> Engineer, 
@@ -28,13 +33,6 @@
         </a>
     </div>
   </div>
-  
-  <script>
-    const profilePic = document.getElementById('profile-pic');
-    
-    profilePic.addEventListener('click', function() {
-      this.classList.toggle('clicked');
-    });
-  </script>
+  <script src="assets/script.js"></script>
 </body>
 </html>
