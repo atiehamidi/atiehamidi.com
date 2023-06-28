@@ -65,6 +65,13 @@ body {
     color: #000;
   }
 
+  .toggle-icon {
+    position: absolute;
+    top: 60%;
+    left: -25px;
+    transform: translateY(-50%);
+  }
+
   .light-theme .name,
   .light-theme .description,
   .light-theme .social-link {
@@ -73,8 +80,8 @@ body {
 
   .toggle-container {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 22px;
+    right: 22px;
   }
   
   .toggle-label {
