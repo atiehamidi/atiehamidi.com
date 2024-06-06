@@ -1,2 +1,2 @@
 # My Personal Website
-Source code for my static website [josheghani.com](https://josheghani.com)
+Source code for my static website [atiehamidi.com](https://atiehamidi.com)
