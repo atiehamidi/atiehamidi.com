@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atieh Hamidi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Atieh Hamidi</h1>
+            <p>Full Stack Developer & Tech Enthusiast</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="https://media.licdn.com/dms/image/v2/D4E03AQFia-bLdc21ww/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1670842792564?e=1737590400&v=beta&t=by7rTyLAN_CDhpAvlRRn5TH3f3DS-jJBmSoufmaxGBc" alt="Atieh Hamidi" class="profile-img">
+                <div class="about-text">
+                    <p>Hello! I'm Atieh Hamidi, a passionate Full Stack Developer with a keen interest in building robust and scalable web applications. With expertise in technologies like React, Node.js, and Next.js, I strive to create seamless user experiences and efficient backend systems.</p>
+                    <p>My journey in tech has been driven by curiosity and a constant desire to learn. When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing my knowledge through blog posts and tech talks.</p>
+                    <p>I'm always open to new opportunities and collaborations. Feel free to reach out if you'd like to discuss a project or just chat about tech!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C4E0BAQEFI6gM3_uqHA/company-logo_200_200/company-logo_200_200/0/1639757094126/peekabond_logo?e=1740614400&v=beta&t=AY2OWmYq7KT-qT0ODlPbYrfJX0GPU0iP1B7JqZXlLs8" alt="Peekabond">
+                    <h3>Peekabond</h3>
+                    <p>Created MVP of Peekabond application with React Native, MongoDB, and Apollo</p>
+                    <a href="https://peekabond.com" class="btn" target="_blank">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C4D0BAQFinKS7EIDk4g/company-logo_200_200/company-logo_200_200/0/1630464801758?e=1740614400&v=beta&t=nsXEpluiEGmXrI1e5227yn-n_utUHhS8vPTKfzItjt8" alt="Alomedical">
+                    <h3>Alomedical</h3>
+                    <p>Created with Python and Django</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://media.licdn.com/dms/image/v2/C560BAQHJ7H0cH1hJQw/company-logo_200_200/company-logo_200_200/0/1630670258450/ppe_needed_logo?e=1740614400&v=beta&t=jc_oyfxZ7pwqcai8h3SfcQy2xpH5F6HTSbAp2HEt46A" alt="PPE Needed">
+                    <h3>PPE Needed</h3>
+                    <p>Maining website created with PHP</p>
+                    <a href="http://ppeneeded.com" class="btn" target="_blank">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2>Latest Blog Posts</h2>
+            <div class="blog-grid">
+                <div class="blog-item">
+                    <h3>Getting Started with Next.js</h3>
+                    <p>Learn how to build fast and SEO-friendly websites with Next.js</p>
+                    <a href="blog-getting-started-with-nextjs.html" class="btn">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <h3>The Power of React Hooks</h3>
+                    <p>Explore how React Hooks can simplify your component logic</p>
+                    <a href="blog-power-of-react-hooks.html" class="btn">Read More</a>
+                </div>
+                <div class="blog-item">
+                    <h3>Building Scalable APIs with Node.js</h3>
+                    <p>Best practices for creating robust and scalable backend services</p>
+                    <a href="blog-building-scalable-apis-nodejs.html" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Atieh Hamidi. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

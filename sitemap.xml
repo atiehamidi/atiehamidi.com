@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://atiehamidi.com/index.html</loc>
+    <lastmod>2023-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://atiehamidi.com/blog-getting-started-with-nextjs.html</loc>
+    <lastmod>2023-11-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atiehamidi.com/blog-power-of-react-hooks.html</loc>
+    <lastmod>2023-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://atiehamidi.com/blog-building-scalable-apis-nodejs.html</loc>
+    <lastmod>2023-12-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>
+
